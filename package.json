@@ -17,6 +17,7 @@
     "next": "15.5.18",
     "react": "19.0.3",
     "react-dom": "19.0.3",
+    "react-hook-form": "^7.88.0",
     "recharts": "^2.15.2"
   },
   "devDependencies": {

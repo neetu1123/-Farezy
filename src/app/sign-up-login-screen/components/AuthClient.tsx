@@ -381,7 +381,7 @@ function SignupForm() {
             placeholder="Re-enter your password"
             {...register('confirmPassword', {
               required: 'Please confirm your password',
-              validate: (val) => val === password || 'Passwords do not match',
+              validate: (val: string) => val === password || 'Passwords do not match',
             })}
             className={`input-field w-full pl-10 pr-11 py-3 text-sm ${errors.confirmPassword ? 'border-destructive' : ''}`}
           />
