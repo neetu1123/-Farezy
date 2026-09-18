@@ -205,3 +205,21 @@
     margin-left: 4px;
   }
 }
+
+.mobile-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-home {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .mobile-home {
+    display: none;
+  }
+  .desktop-home {
+    display: block;
+  }
+}
